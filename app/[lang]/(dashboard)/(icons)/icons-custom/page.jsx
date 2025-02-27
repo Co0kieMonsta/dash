@@ -58,11 +58,11 @@ import {
 
 const icons = [
   {
-    name: "DashBoard",
+    name: "Dash",
     icon: DashBoard,
   },
   {
-    name: "Application",
+    name: "App",
     icon: Application,
   },
   {
@@ -70,7 +70,7 @@ const icons = [
     icon: Authentication,
   },
   {
-    name: "Components",
+    name: "Comp",
     icon: Components,
   },
   {
