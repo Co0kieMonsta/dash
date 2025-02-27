@@ -46,7 +46,7 @@ import {
 export const menusConfig = {
   mainNav: [
     {
-      title: "Dashboard",
+      title: "Dash",
       icon: DashBoard,
       child: [
         {
@@ -67,7 +67,7 @@ export const menusConfig = {
       ],
     },
     {
-      title: "Application",
+      title: "App",
       icon: Application,
       child: [
         {
@@ -104,7 +104,7 @@ export const menusConfig = {
       ],
     },
     {
-      title: "Components",
+      title: "Comp",
       icon: Components,
       megaMenu: [
         {
