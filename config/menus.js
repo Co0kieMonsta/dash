@@ -2026,7 +2026,7 @@ export const menusConfig = {
         title: "menu",
       },
       {
-        title: "Dashboard",
+        title: "Dash",
         icon: DashBoard,
         href: "/dashboard",
         isOpen: false,
@@ -2051,7 +2051,7 @@ export const menusConfig = {
       },
       {
         isHeader: true,
-        title: "Application",
+        title: "App",
       },
       {
         title: "chat",
