@@ -92,7 +92,7 @@ const FooterContent = () => {
           target="__blank"
           href="https://codeshaper.net"
         >
-          cree
+          creature
         </a>
       </p>
     </div>
