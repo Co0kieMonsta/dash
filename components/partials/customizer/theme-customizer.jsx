@@ -30,7 +30,7 @@ const ThemeCustomize = ({
   trigger = (
     <div className="fixed ltr:right-4 rtl:left-4 bottom-14 z-50">
       <Button size="icon" className=" relative h-12 w-12  rounded-full ">
-        <Settings className="h-7 w-7 animate-spin" />
+        <Settings className="h-7 w-7 animate-shake" />
       </Button>
     </div>
   ),

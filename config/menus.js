@@ -5,6 +5,7 @@ import {
   DashBoard,
   Stacks2,
   Map,
+  User,
   Grid,
   Files,
   Graph,
@@ -41,6 +42,7 @@ import {
   LucideIcon,
   CustomIcon,
   Mail,
+  UserSign,
 } from "@/components/svg";
 
 export const menusConfig = {
@@ -2024,6 +2026,237 @@ export const menusConfig = {
       {
         isHeader: true,
         title: "menu",
+      },
+      {
+        title: "dashboard",
+        icon: DashBoard,
+        href: "/dashboard",
+      },
+      {
+        title: "usuarios",
+        icon: User,
+        href: "/users",
+      },
+      {
+        isHeader: true,
+        title: "productos & servicios",
+      },
+      {
+        title: "servicios",
+        icon: DashBoard,
+        href: "/dashboard",
+        isOpen: false,
+        isHide: false,
+        child: [
+          {
+            title: "registrar servicios",
+            href: "/reg-s",
+            icon: Graph,
+          },
+          {
+            title: "Administrar Servicios",
+            href: "/man-s",
+            icon: Cart,
+          },
+          {
+            title: "Categorias ",
+            href: "/cat-s",
+            icon: ClipBoard,
+          },
+        ],
+      },
+      {
+        title: "productos",
+        icon: Cart,
+        href: "/dashboard",
+        isOpen: false,
+        isHide: false,
+        child: [
+          {
+            title: "nueva venta",
+            href: "/new-p",
+            icon: Graph,
+          },
+          {
+            title: "adminstrar ventas",
+            href: "/man-p",
+            icon: Cart,
+          },
+          {
+            title: "categorias",
+            href: "/cat-p",
+            icon: ClipBoard,
+          },
+        ],
+      },
+      {
+        isHeader: true,
+        title: "clientes",
+      },
+      {
+        title: "clientes",
+        icon: DashBoard,
+        href: "/dashboard",
+        isOpen: false,
+        isHide: false,
+        child: [
+          {
+            title: "registro clientes",
+            href: "/reg-c",
+            icon: Graph,
+          },
+          {
+            title: "loyalty program",
+            href: "/loyalty",
+            icon: Cart,
+          },
+          {
+            title: "suscripciones ",
+            href: "/subs",
+            icon: ClipBoard,
+          },
+        ],
+      },
+      {
+        title: "reservas",
+        icon: Calendar,
+        href: "/booking",
+      },
+      {
+        title: "docs",
+        icon: MenuBar,
+        child: [
+          {
+            title: "orden de servicio",
+            href: "#",
+          },
+          {
+            title: "Cotizaciones",
+            multi_menu: [
+              {
+                title: "generar cotizacion",
+                href: "#",
+              },
+              {
+                title: "administrar cotizaciones",
+                href: "#",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        isHeader: true,
+        title: "control interno",
+      },
+      {
+        title: "finanzas",
+        icon: DashBoard,
+        href: "/dashboard",
+        isOpen: false,
+        isHide: false,
+        child: [
+          {
+            title: "transacciones",
+            href: "/transactions",
+            icon: Graph,
+          },
+          {
+            title: "cuentas",
+            href: "/loyalty",
+            icon: Cart,
+          },
+          {
+            title: "categorias ",
+            href: "/subs",
+            icon: ClipBoard,
+          },
+          {
+            title: "reportes ",
+            href: "/subs",
+            icon: ClipBoard,
+          },
+          {
+            title: "documentos ",
+            href: "/subs",
+            icon: ClipBoard,
+          },
+        ],
+      },
+      {
+        title: "inventario",
+        icon: DashBoard,
+        href: "/dashboard",
+        isOpen: false,
+        isHide: false,
+        child: [
+          {
+            title: "registro clientes",
+            href: "/reg-c",
+            icon: Graph,
+          },
+          {
+            title: "loyalty program",
+            href: "/loyalty",
+            icon: Cart,
+          },
+          {
+            title: "suscripciones ",
+            href: "/subs",
+            icon: ClipBoard,
+          },
+        ],
+      },
+      {
+        title: "staff",
+        icon: DashBoard,
+        href: "/dashboard",
+        isOpen: false,
+        isHide: false,
+        child: [
+          {
+            title: "control asistencia",
+            href: "/reg-c",
+            icon: Graph,
+          },
+          {
+            title: "registrar pagos",
+            href: "/loyalty",
+            icon: Cart,
+          },
+        ],
+      },
+      {
+        isHeader: true,
+        title: "soporte",
+      },
+      {
+        title: "soporte",
+        icon: DashBoard,
+        href: "/dashboard",
+        isOpen: false,
+        isHide: false,
+        child: [
+          {
+            title: "feedback",
+            href: "/reg-c",
+            icon: Graph,
+          },
+          {
+            title: "reportar errores",
+            href: "/loyalty",
+            icon: Cart,
+          },
+          {
+            title: "ayuda ",
+            href: "/subs",
+            icon: ClipBoard,
+          },
+        ],
+      },
+      {
+        isHeader: true,
+        title: "--end--",
       },
       {
         title: "Dash",

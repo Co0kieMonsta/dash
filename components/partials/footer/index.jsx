@@ -83,16 +83,16 @@ const FooterContent = () => {
   return (
     <div className="block md:flex md:justify-between text-muted-foreground">
       <p className="sm:mb-0 text-xs md:text-sm">
-        COPYRIGHT © {new Date().getFullYear()} DashTail All rights Reserved
+        © {new Date().getFullYear()} NitroERP All rights Reserved
       </p>
       <p className="mb-0 text-xs md:text-sm">
-        Hand-crafted & Made by{" "}
+        Coded with love by{" "}
         <a
           className="text-primary"
           target="__blank"
-          href="https://codeshaper.net"
+          href="https://creature.dev"
         >
-          creature
+          theCreature
         </a>
       </p>
     </div>
